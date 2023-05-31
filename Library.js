@@ -14,7 +14,7 @@ class Book {
     addBook(book) {
       this.inventory.push(book);
     }
-  
+  // --decrementing, removing / book checkout--
     issueBook(book) {
       const index = this.inventory.indexOf(book);
       if (index !== -1) {
